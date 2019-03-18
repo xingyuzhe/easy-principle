@@ -17,18 +17,18 @@ These examples written in concise code will help you understand the common princ
 - [x] new
 - [x] throttle
 - [x] watch
-- [] promise       
-- [] template
-- [] IOC
-- [] AOP
-- [] mvvm
-- [] mvc
-- [] express
-- [] react
-- [] react-router
-- [] diff-dom
-- [] fiber
-- [] angular
-- [] vue
-- [] eggjs
-- [] nestjs
+- [ ] promise       
+- [ ] template
+- [ ] IOC
+- [ ] AOP
+- [ ] mvvm
+- [ ] mvc
+- [ ] express
+- [ ] react
+- [ ] react-router
+- [ ] diff-dom
+- [ ] fiber
+- [ ] angular
+- [ ] vue
+- [ ] eggjs
+- [ ] nestjs
