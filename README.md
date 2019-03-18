@@ -17,6 +17,8 @@ These examples written in concise code will help you understand the common princ
 - [x] new
 - [x] throttle
 - [x] watch
+- [x] get-value
+- [x] retry  
 - [ ] promise       
 - [ ] template
 - [ ] IOC
@@ -30,5 +32,6 @@ These examples written in concise code will help you understand the common princ
 - [ ] fiber
 - [ ] angular
 - [ ] vue
+- [ ] ready
 - [ ] eggjs
 - [ ] nestjs
