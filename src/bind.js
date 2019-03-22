@@ -7,10 +7,13 @@ Function.prototype.fakeBind = function(context, ...args1) {
 
   const fnNoop = function() {}
 
+  // 为了bind后的函数能够使用new调用
   const fnBound = function(...args2) {
+    // 合并bind时以及真正调用时的参数
     return fn.call(this instanceof fnBound ? this : context, ...args1.concat(args2))
   }
 
+  // 用空函数来中转, 不污染原始绑定的函数的prototype
   fnNoop.prototype = this.prototype
   fnBound.prototype = new fnNoop()
 

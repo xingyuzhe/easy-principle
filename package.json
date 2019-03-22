@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/xingyuzhe/easy-pinciple#readme",
   "dependencies": {
+    "promises-aplus-tests": "^2.1.2",
     "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
   }
